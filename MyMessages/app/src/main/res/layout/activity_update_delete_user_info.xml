@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateDeleteUserInfo">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:layout_marginTop="30dp"
+        android:id="@+id/etUserName"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt"
+        android:layout_marginTop="30dp"
+        android:id="@+id/etUserEmail"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#448AFF"
+        android:id="@+id/btnUpdate"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#F20622"
+        android:id="@+id/btnDelete"/>
+
+</LinearLayout>

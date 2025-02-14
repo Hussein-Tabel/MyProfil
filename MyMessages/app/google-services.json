@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "493009214202",
+    "project_id": "mycommunicationproject-c7bcd",
+    "storage_bucket": "mycommunicationproject-c7bcd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:493009214202:android:572abf0bdc4ce4d355c743",
+        "android_client_info": {
+          "package_name": "com.example.mymessages"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEGcsM20m1TCH_DMMCTnuE-7_Sw-W8AME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

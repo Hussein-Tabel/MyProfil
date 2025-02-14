@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UpdateAndDeleteUser">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="10pt"
+        android:id="@+id/etUsername"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:textSize="10pt"
+        android:id="@+id/etEmail"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Update"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:backgroundTint="#448AFF"
+        android:id="@+id/btnUpdate"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Layout"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:backgroundTint="#44B7FF"
+        android:id="@+id/btnLayout"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Delete"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:backgroundTint="#F80834"
+        android:id="@+id/btnDelete"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Cancel"
+        android:textSize="10pt"
+        android:textStyle="bold"
+        android:backgroundTint="#E408F8"
+        android:id="@+id/btnCancel"/>
+
+</LinearLayout>

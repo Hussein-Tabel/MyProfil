@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RegistrePage">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="#448AFF"
+            android:src="@drawable/register_ic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="#448AFF"
+            android:text="Registre Page"
+            android:textSize="15pt"
+            android:textAlignment="center"
+            android:textColor="#FBFAFA"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint=" Full name"
+        android:textSize="10pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="text"
+        android:id="@+id/etUsername"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint=" Email"
+        android:textSize="10pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etEmail"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint=" Password"
+        android:textSize="10pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/etPassword"/>
+
+    <EditText
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:hint=" Confirm Password"
+        android:textSize="10pt"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:inputType="textPassword"
+        android:id="@+id/etConfirmPassword"/>
+
+    <RadioGroup
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp">
+
+        <RadioButton
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Male"
+            android:textSize="10pt"
+            android:id="@+id/rbMale"/>
+
+        <RadioButton
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="Female"
+            android:textSize="10pt"
+            android:id="@+id/rbFemale"/>
+        </RadioGroup>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#448AFF"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Register"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:id="@+id/btnRegister"/>
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#FF4444"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="Cancel"
+        android:textSize="12pt"
+        android:textStyle="bold"
+        android:id="@+id/btnCancel"/>
+
+</LinearLayout>

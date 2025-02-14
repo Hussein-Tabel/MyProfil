@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Profils"
+    android:background="#448AFF">
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/profil"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name: "
+        android:layout_marginLeft="10dp"
+        android:textSize="10pt"
+        android:id="@+id/tvUserName"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email: "
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:textSize="10pt"
+        android:id="@+id/tvEmail"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Publications:"
+        android:layout_marginLeft="10dp"
+        android:textSize="10pt"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:text="No Publication"
+        android:textSize="10pt"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:background="#ABC7F0"
+        android:id="@+id/tvPublication"/>
+
+</LinearLayout>
